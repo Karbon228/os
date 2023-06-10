@@ -7,5 +7,5 @@
   1. Зайти в папку
   2. Запустить compile.sh:
     ```
-    ./compile.sh
+    sh ./compile.sh
     ```
