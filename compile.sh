@@ -1,5 +1,6 @@
 mkdir  ./bin/
 rm -rf ./bin/*.o
+rm -rf ./bin/kernel
 
 nasm -f elf32 ./main.asm     -o ./bin/kasm1.o
 nasm -f elf32 ./ports.asm    -o ./bin/kasm2.o
